@@ -1,0 +1,16 @@
+name: Check spelling
+
+jobs:
+  check_spelling:
+
+    #runs-on: ubuntu-latest
+    #env:
+    #  GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - uses: igsekor/pyspelling-any@v1.0.4
+
+
+
