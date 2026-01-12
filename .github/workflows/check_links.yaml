@@ -2,7 +2,7 @@ name: Check links
 
 jobs:
   check_links:
-    #runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     #env:
     #  GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
 

@@ -3,7 +3,8 @@ name: Check spelling
 jobs:
   check_spelling:
 
-    #runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
+
     #env:
     #  GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
