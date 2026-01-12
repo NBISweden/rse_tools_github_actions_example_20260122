@@ -6,6 +6,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - run: python --help
+      - run: python3 --help
       - run: python hello.py
 
 
