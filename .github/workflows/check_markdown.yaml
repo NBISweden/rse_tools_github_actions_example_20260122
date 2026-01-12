@@ -1,6 +1,9 @@
 # Check that there is correct Markdown in all files
 name: Check Markdown
 
+on:
+  push:
+
 jobs:
   check_markdown:
 

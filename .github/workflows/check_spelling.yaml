@@ -1,5 +1,8 @@
 name: Check spelling
 
+on:
+  push:
+
 jobs:
   check_spelling:
 

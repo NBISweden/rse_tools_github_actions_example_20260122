@@ -1,5 +1,8 @@
 name: Check links
 
+on:
+  push:
+
 jobs:
   check_links:
     runs-on: ubuntu-latest
