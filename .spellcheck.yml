@@ -1,5 +1,5 @@
 matrix:
-- name: markdown
+- name: Markdown
   dictionary:
     wordlists:
     - .wordlist.txt
@@ -19,6 +19,5 @@ matrix:
       - 'pre'
       - 'blockquote'
   sources:
-  - 'docs/**/*.md'
-  - 'README.md'
+  - '**.md'
   default_encoding: utf-8
