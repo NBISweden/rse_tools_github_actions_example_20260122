@@ -6,7 +6,7 @@ talk about GitHub Actions, as presented on 2026-01-22.
 
 ## Spelling error
 
-Here is a zpelling error.
+Here is a spelling error.
 
 ## False positive spelling errors
 
