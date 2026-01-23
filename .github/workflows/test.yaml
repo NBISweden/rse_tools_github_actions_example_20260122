@@ -1,9 +1,0 @@
-on:
-  push:
-
-jobs:
-  run_my_code:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout
-      - run: python hello.py
